@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Soggys Comp Dahood GUI (BETA) | https://discord.gg/wT2rRVuArs",
-   LoadingTitle = "Best Dahood GUI",
+   LoadingTitle = "Loading...",
    LoadingSubtitle = "by SoggySwisher",
    ConfigurationSaving = {
       Enabled = false,
@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("In-Depth Lock GUIS", nil) -- Title, Image
+local MainTab = Window:CreateTab("Comp", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Scripts")
 
 Rayfield:Notify({
@@ -66,7 +66,7 @@ local Button = MainTab:CreateButton({
    end,
 })  
 
-local MainTab = Window:CreateTab("Less In-Depth GUIS", nil) -- Title, Image
+local MainTab = Window:CreateTab("Regular", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Scripts")
 
 local Button = MainTab:CreateButton({
@@ -130,6 +130,16 @@ local Button = MainTab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
     end,
  })
+
+ local ColorPicker = Tab:CreateColorPicker({
+    Name = "Color Picker",
+    Color = Color3.fromRGB(255,255,255),
+    Flag = "ColorPicker1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+    Callback = function(Value)
+        -- The function that takes place every time the color picker is moved/changed
+        -- The variable (Value) is a Color3fromRGB value based on which color is selected
+    end
+})
 
 local MainTab = Window:CreateTab("BROKEN", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("SCRIPT WILL BREAK IF I GET RID OF IT")
