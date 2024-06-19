@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Soggys Comp Dahood GUI (BETA) | https://discord.gg/wT2rRVuArs",
+   Name = "Soggys Dahood Hub (BETA) | https://discord.gg/wT2rRVuArs",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "by SoggySwisher",
    ConfigurationSaving = {
@@ -26,11 +26,11 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("Comp", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Scripts")
+local MainTab = Window:CreateTab("✨ | Comp", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME!")
 
 Rayfield:Notify({
-   Title = "Soggys GUI Loaded Have Fun!",
+   Title = "Soggys Dahood Hub Loaded Have Fun!",
    Content = "Have Fun Locking!",
    Duration = 5,
    Image = nil,
@@ -53,62 +53,90 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Skanky Box NGL Kinda Mid",
+   Name = "Skanky Box",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CHINGCHONGWINGWON/S-NWNCAJDAADKOAWPAPWCACPWCAPLCAPLCAS-NWNCAJDAADKOAWPAPWCACPWCAPLCAPLCA/main/njddwadjakmcakwawad"))() 
    end,
 })   
 
 local Button = MainTab:CreateButton({
-   Name = "Osiris Source Leaked",
+   Name = "Osiris RAW Source Leaked",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/osiris-leaked-source/main/osiris"))() 
    end,
 })  
 
-local MainTab = Window:CreateTab("Regular", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Scripts")
+local Button = MainTab:CreateButton({
+    Name = "PuppyWare Reborn",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/puppyware-reborn/main/source"))() 
+    end,
+ }) 
+
+local MainTab = Window:CreateTab("⚡ | Regular", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME!")
 
 local Button = MainTab:CreateButton({
-    Name = "Vortex GUI",
+    Name = "Vortex Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
 end,
 })
 
 local Button = MainTab:CreateButton({
-    Name = "Faded GUI",
+    Name = "Faded Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
 end,
 })
 
 local Button = MainTab:CreateButton({
-    Name = "Daware GUI",
+    Name = "Daware Hub",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/statueware/main/dahoodv1.lua", true))()
 end,
 })
 
-local MainTab = Window:CreateTab("Camlocks", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Scripts")
+local Button = MainTab:CreateButton({
+    Name = "RaphasHub v0.2",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/raphas-hub/main/source", true))()
+end,
+})
 
 local Button = MainTab:CreateButton({
-    Name = "Loot.fun (c to toggle/untoggle)",
+    Name = "SwagMode RAW Source (NOT EVERYTHING WORKS)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/swagmode-source/main/source", true))()
+end,
+})
+
+local MainTab = Window:CreateTab("✊ | Camlocks", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME! | C To Untoggle/Toggle")
+
+local Button = MainTab:CreateButton({
+    Name = "Loot.fun",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/loot.fun/main/source", true))()
 end,
 })
 
 local Button = MainTab:CreateButton({
-    Name = "Camlock Unversal (c to toggle/untoggle)",
+    Name = "Camlock Unversal",
     Callback = function()
     loadstring(game:HttpGet("https://pastebinp.com/raw/WpUVbw3J", true))()
 end,
 })
 
-local MainTab = Window:CreateTab("Others", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Scripts")
+local Button = MainTab:CreateButton({
+    Name = "Wuss's Paid Camlock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/Wuss-s-paid-gui/main/source", true))()
+end,
+})
+
+local MainTab = Window:CreateTab("⚙️ | Others", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("1 Script Recoded By ME! The Others Are NOT!")
 
 local Button = MainTab:CreateButton({
    Name = "Soggys AimVeiwer",
