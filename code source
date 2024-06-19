@@ -135,6 +135,37 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/Wuss-s-p
 end,
 })
 
+local MainTab = Window:CreateTab("✔️ | AntiLocks", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("These Scripts are not made by ME!")
+
+local Button = MainTab:CreateButton({
+   Name = "Antilock Method 1 (B To Toggle/Untoggle)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/antilock-method-1/main/source", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "AntiLock Method 2 (X To Toggle/Untoggle)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/antilock-method-2/main/source", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Sky Antilock (No Keybind)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/Sky-Antilock/main/source", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Jumpable Antilock (No Keybind)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/jumpable-antilock/main/source", true))()
+end,
+})
+
 local MainTab = Window:CreateTab("⚙️ | Others", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("1 Script Recoded By ME! The Others Are NOT!")
 
@@ -156,6 +187,13 @@ local Button = MainTab:CreateButton({
     Name = "Infinite Yeild",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+ })
+
+ local Button = MainTab:CreateButton({
+    Name = "Click TP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/click-tp-toblox/main/source"))()
     end,
  })
 
