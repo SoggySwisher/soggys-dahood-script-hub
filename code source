@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Soggys Dahood Hub v0.1 | https://discord.gg/wT2rRVuArs",
+   Name = "Soggys Dahood Hub v0.2 | https://discord.gg/wT2rRVuArs",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "by SoggySwisher",
    ConfigurationSaving = {
@@ -73,6 +73,13 @@ loadstring(game:HttpGet("https://pastebin.com/raw/C6R2XTGi"))()
 end,
 })
 
+local Button = MainTab:CreateButton({
+    Name = "PuppyWare Reborn",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/puppyware-reborn-reupload/main/source"))()
+end,
+})
+
 local MainTab = Window:CreateTab("⚡ | Regular", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME!")
 
@@ -111,6 +118,34 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/swagmode
 end,
 })
 
+local Button = MainTab:CreateButton({
+    Name = "Polakya v5.4",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pixelheadx/Polakya/main/Bestscript.md", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "ChariotesWare",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "BeamedWare.CC 2.0",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "Unnamed GUI (Mainly For Real DH)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JsfuayASbsfuWGakCmhzVwaKJsfuayASbsfuWGa/EternalJNshAIw-mpaAkw-VkbgA/main/eternal.lua", true))()
+end,
+})
+
 local MainTab = Window:CreateTab("✊ | Camlocks", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME! | C To Untoggle/Toggle")
 
@@ -132,6 +167,13 @@ local Button = MainTab:CreateButton({
     Name = "Wuss's Paid Camlock",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/Wuss-s-paid-gui/main/source", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "Aura X Remake (Only Camlock Works)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma", true))()
 end,
 })
 
@@ -173,6 +215,13 @@ local Button = MainTab:CreateButton({
     Name = "Infinite Yeild",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+ })
+
+ local Button = MainTab:CreateButton({
+    Name = "Vapev4 Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"))()
     end,
  })
 
