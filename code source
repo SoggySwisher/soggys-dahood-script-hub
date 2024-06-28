@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Soggys Dahood Hub v0.2 | https://discord.gg/wT2rRVuArs",
+   Name = "Soggys Dahood Hub v0.3 | https://discord.gg/wT2rRVuArs",
    LoadingTitle = "Loading...",
    LoadingSubtitle = "by SoggySwisher",
    ConfigurationSaving = {
