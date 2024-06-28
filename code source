@@ -30,8 +30,8 @@ local MainTab = Window:CreateTab("✨ | Comp", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME!")
 
 Rayfield:Notify({
-   Title = "Soggys Dahood Hub Loaded Have Fun!",
-   Content = "Have Fun Locking!",
+   Title = "Soggys Dahood Hub Has Loaded Have Fun!",
+   Content = "Want Other Scripts For Other Games? Make Sure To Join The Discord!",
    Duration = 5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -157,9 +157,16 @@ end,
 })
 
 local Button = MainTab:CreateButton({
-    Name = "Camlock Unversal",
+    Name = "Camlock Method 1",
     Callback = function()
     loadstring(game:HttpGet("https://pastebinp.com/raw/WpUVbw3J", true))()
+end,
+})
+
+local Button = MainTab:CreateButton({
+    Name = "Camlock Method 2",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/camlock-method-2/main/source", true))()
 end,
 })
 
@@ -193,6 +200,23 @@ local Button = MainTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/Sky-Antilock/main/source", true))()
 end,
 })
+
+local MainTab = Window:CreateTab("✈️ | Resolvers", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("These Scripts Are Not Made By ME!")
+
+local Button = MainTab:CreateButton({
+    Name = "Anti Resolver Method 1",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/resolver-method-1/main/source"))()
+    end,
+ }) 
+ 
+ local Button = MainTab:CreateButton({
+    Name = "Anti Resolver Method 2",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SoggySwisher/resolver-method-3/main/source"))()
+    end,
+ }) 
 
 local MainTab = Window:CreateTab("⚙️ | Others", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("1 Script Recoded By ME! The Others Are NOT!")
